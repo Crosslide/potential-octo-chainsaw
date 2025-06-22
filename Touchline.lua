@@ -6,8 +6,8 @@ local character = player.Character or player.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
 local humanoid = character:WaitForChild("Humanoid")
 
-local normalSpeed = 0.3
-local fasterSpeed = 0.7
+local normalSpeed = 0.2
+local fasterSpeed = 0.5
 local currentSpeed = normalSpeed
 local isFast = false
 
